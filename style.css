@@ -100,6 +100,7 @@
 .right-title {
     color: #0e052d;
     font-size: 24px;
+    padding-left: 1rem;
 }
 
 .gap {
@@ -109,6 +110,7 @@
     font-size: 18px;
     color: #0e0d0d;
     margin-top: 1.5rem;
+    padding-left: 1rem;
 }
 
 .experience-contents,
@@ -119,32 +121,36 @@
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 1.5rem;
     color: #F1F8FD;
+    padding-left: 2rem;
 }
     
 
-.exp-company-name,
+.experience-company-name,
 .education-school-name,
 .awards-company-name {
     font-size: 20px;
     font-weight: bold;
     margin-top: 1.5rem;
-}
-
-.exp-time-period,
-.educationp-time-period,
-.awards-time-period {
-    font-size: 14px;
     
 }
 
-.exp-position,
+.experience-time-period,
+.educationp-time-period,
+.awards-time-period {
+    font-size: 14px;
+    padding-left:1rem;
+    
+}
+
+.experience-position,
 .education-subject,
 .awards-name {
     font-size: 20px;
     margin-top: rem;
+    
 }
 
-.exp-desc,
+.experience-desc,
 .education-desc,
 .awards-desc {
     font-size: 16px;
