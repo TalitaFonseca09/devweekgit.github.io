@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #70c6c7;
+    background-color: #feffff;
 }
 
 .resume-contents {
@@ -41,15 +41,19 @@ body {
     border-bottom: 2px solid #1B2631;
 }
 
+img{
+    border-radius: 50%;
+}
+
 .profile .profile-image {
     width: 100%;
-    border-radius: 50%;
+    border-radius: 100%;
     border: 8px solid #1B2631;
 }
 
 .name {
     color: #D6DBDF;
-    font-size: 28px;
+    font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
@@ -239,6 +243,7 @@ body {
         width: 100%;
         margin: 0 auto;
     }
+
 
     .name {
         font-size: 20px;
